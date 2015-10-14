@@ -29,3 +29,7 @@ The ``mode`` option determines whether the plugin outputs anything:
 ## Text-only output
 ``{{s(v)}}`` is equivalent to ``s($v);``
 
+## TODO
+
+Check what the Twig environment contains to display info on the current template / call stack.
+
