@@ -6,7 +6,8 @@ Plugin for [Craft CMS](http://buildwithcraft.com/) to use [Kint](http://raveren.
 
 * Download or clone
 * Put folder ``kint`` into ``craft/plugins``
-* Install plugin
+* Run ``$ composer install``
+* Enable plugin
 * Configure plugin
 
 ## Configuration
