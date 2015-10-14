@@ -1,0 +1,17 @@
+{
+    "name": "apolakipso/kint",
+    "description": "Adds Kint to Twig templates",
+    "authors": [
+        {
+            "name": "Apola Kipso"
+        }
+    ],
+    "type": "craft-plugin",
+    "require": {
+        "composer/installers": "~1.0",
+		"raveren/kint": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {"": "vendor/"}
+    }
+}

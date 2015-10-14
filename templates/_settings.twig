@@ -1,0 +1,26 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.radioGroup({
+	first:        true,
+	label:        "Mode"|t,
+	id:           'mode',
+	name:         'mode',
+	instructions: "You should use devMode for the most part."|t,
+	value:        settings.mode,
+	autofocus:    true,
+	options: [
+		{
+			"label": "On",
+			"value": 1
+		},
+		{
+			"label": "Off",
+			"value": 0
+		},
+		{
+			"label": "devMode",
+			"value": 2
+		}
+	],
+	errors:       settings.getErrors('mode')
+}) }}
